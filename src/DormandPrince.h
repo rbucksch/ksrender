@@ -1,7 +1,5 @@
 #pragma once
 
-// comment
-
 #include "KerrSchild.h"
 
 // dp_derivs - Berechnung eines RK-Schrittes
