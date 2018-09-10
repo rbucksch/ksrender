@@ -2,6 +2,8 @@
 #include "Camera.h"
 #include "KerrSchild.h"
 
+//comment
+
 #include <algorithm>
 #include <cmath>
 #include <iostream>
@@ -103,4 +105,8 @@ void Camera::InitialConditions(Kerrschild &H, double* dataVec, int vPos, int hPo
 	for (int i=5; i<8; ++i) {
 		dataVec[i] *= scaler;
 	}
+}
+
+{
+	
 }
